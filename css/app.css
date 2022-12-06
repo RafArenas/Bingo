@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'signika', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    background-color: #01c3ff !important;
+}
+.form{
+    background-color: rgb(236, 235, 235) !important;
+    margin-top: 0px !important;
+    z-index: 1;
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    width: 100vw;
+    animation: cambio 1.5s infinite linear;  
+}
+#slider li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+footer{
+    background-color: #01c3ff !important;
+}
+.lista{
+    list-style: none !important;
+}
+.lista li{
+    color: #0b76f0 !important;
+}
+.lista2{
+    list-style: none !important;
+}
+.servicio li{
+    color: #0b76f0 !important;
+}
+.lista3{
+    list-style: none !important;
+}
+.lista4{
+    list-style: none !important;
+}
+.convenios{
+    list-style: none !important;
+}
+.convenios li{
+    display: inline-block !important;
+}
+.banner2{
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.banner2 li{
+    display: inline-block !important;
+}
+.logos{
+    list-style: none !important;
+}
+.logos li{
+    display: inline-block !important;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dedos1{
+    margin-left: 15px;
+}
+.dedos img{
+    width: 500px;
+    height: 700px;
+    margin-top: 40px;
+}
+
+.rectangulo{
+    position:absolute;
+    top: 2009px;
+    left: 90px;
+}
+.rectangulo img{
+    width: 430px;
+    height: 230px;
+    
+}
+
